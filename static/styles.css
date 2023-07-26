@@ -1,0 +1,172 @@
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; /* Use a common font for better compatibility */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #007bff; /* Blue primary color */
+    color: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 24px; /* Slightly larger font size for the logo */
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Align the navbar items to the right */
+    align-items: center;
+}
+
+.navbar li {
+    margin-left: 15px; /* Add some spacing between navbar items */
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.navbar a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Main Content styles */
+h2 {
+    margin-bottom: 20px; /* Increase the margin for a more spacious look */
+    color: #007bff; /* Blue heading color */
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px; /* Slightly larger margin for better separation */
+    font-weight: bold; /* Bold labels for better visibility */
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 15px; /* Slightly larger margin between form elements */
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center; /* Align the footer to the right */
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    right: 0; /* Position the footer at the bottom-right corner */
+    width: 100%;
+    
+}
+
+/* Smooth scrolling styles */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Additional Contact Us styles */
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    margin-top: 30px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+.blank-space {
+    padding-bottom: 100px; /* Change the height value as per your required space */
+}
